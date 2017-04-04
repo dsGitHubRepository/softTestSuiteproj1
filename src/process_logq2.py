@@ -47,6 +47,8 @@ for lsrc1 in range(np.size(rsrcNodupl)):
         sumbytePerfreq=sumbyte/(nc+1) # average out
     bandwidthList.append(sumbytePerfreq)
     
+bandwListint=list(map(int, bandwidthList))    
+
 pathoutRsrc='./log_output/resources.txt'
 dataoutRsrc=open(pathoutRsrc,'wb')
 
