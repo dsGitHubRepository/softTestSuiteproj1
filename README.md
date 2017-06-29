@@ -20,6 +20,7 @@ Few more lines of entry of 'batch_log.json' for a 3rd degree friend (analysis be
 set) are as follows:
 
 {"event_type": "purchase", "timestamp":"2017-06-13 11:33:01", "id": "1", "amount": "16.83"}
+
 i.e.; $16.83 purchase was made at 11:33:01 on 2017-06-13. Important concern here "id": "1" be used for what ? 
 
 
