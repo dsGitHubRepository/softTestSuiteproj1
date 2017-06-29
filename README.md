@@ -1,10 +1,26 @@
 # Contents
-1. [Objective](RAEDME.md#objective)
+1. [Introduction](RAEDME.md#objective)
 2. [Input Data](README.md#input-data)
 3. [Analysis](README.md#analysis)
 4. [Interesting Features](README.md#features)
 5. [Output Data](RAEDME.md#output-data)
 6. [Summary](RAEDME.md#summary)
+
+
+
+### Introduction
+The objective of this problem is to study how social network affects e-commerce or just marketting. Shoppers can see what their friends are buying so that social network can be used to promote e-commerce like Amazon, eBay, etc. Based on those analysis recommendations or emails can be send to customer to promote business.
+
+
+### Goal
+This project aims to analyze purchases within the social network of users and detect users like user's id 1, 2, etc showing anomalous behavior i.e.; some shopper (referenced by id) making consecutively huge number of purchases (for a unique "id" and "timestamp") comparing the average trend (parameter: No of purchases, total purchases, etc) be identified as flagged purchase and be reported as 
+
+{"event_type":"purchase", "timestamp":"2017‐06‐13 11:33:02", "id": "2", "amount": "1601.83", mean": "29.10", "sd": "21.46"}
+
+in the output file flagged_purchases.json (amount $1601.83 is the total amount of purchase ? or ...).
+
+Of course the mean and sd will be counted using the number of consecutive (unique "timestamp") purchases by a shopped with a unique id say id 7.
+
 
 
 
@@ -41,5 +57,11 @@ Another consecutive entry as follows:
 Here customer 1 and customer 3 became unfriend. 
 
 ### Analysis
+
+### Key Points:
+
+Flagged purchases: 
+
+
 
 
