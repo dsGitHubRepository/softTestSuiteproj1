@@ -32,6 +32,12 @@ Another entry such as
 
 {"event_type":"befriend", "timestamp":"2017-06-13 11:33:01", "id1": "3", "id2": "1"}
 
-i.e.; Followed by two consecutive purchases (purchase done at the same time) by customer 1, customer 1 and customer 2 became friend. Also customer 3 and customer 1 became friend. A consecutive 3rd purchase of $11.20 was made by customer 1.    
+i.e.; Followed by two consecutive purchases (purchase done at the same time) by customer 1, consecutively customer 1 and customer 2 became friend. Also customer 3 and customer 1 became friend. A consecutive 3rd purchase of $11.20 was made by customer 1.   
+
+Another consecutive entry as follows:
+
+{"event_type":"unfriend", "timestamp":"2017-06-13 11:33:01", "id1": "1", "id2": "3"}
+
+Here customer 1 and customer 3 became unfriend. 
 
 
