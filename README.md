@@ -20,7 +20,15 @@ in the output file flagged_purchases.json (amount $1601.83 is the total amount o
 
 Of course the mean and sd will be counted using the number of consecutive (unique "timestamp") purchases by a shopped with a unique id say id 7.
 
+### Example
+If user A makes a large purchase, we should "flag" them to make sure taht user B and C are influenced by it. C is mutual friend of all A, B and C. D can be notified regarding the large purchase recommending they become friends with user A since D was degree 2 friend of A. If D is now friend of A, then A and D shares a mutual friend C. 
 
+We want to identify real high purchases; purchases that are 3 stndard drviation above the average within their social network. 
+Comment: identify social network ?
+
+### Comment
+
+1. Social network change their purchasing behavior over time, so we should'nt avearge over the full history of tarnsaction (id, timestamp be considered for averaging)
 
 
 ### Input Data
