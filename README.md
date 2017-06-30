@@ -9,7 +9,7 @@
 
 
 ### Introduction
-The objective of this problem is to study how social network affects e-commerce or just marketting. Shoppers can see what their friends are buying so that social network can be used to promote e-commerce like Amazon, eBay, etc. Based on those analysis recommendations or emails can be send to customer to promote business.
+The objective of this problem is to study how social network affects e-commerce or business. Shoppers can see what their friends are buying so that social network can be used to promote e-commerce like Amazon, eBay, etc. Based on those analysis recommendations or emails can be send to customer to promote business.
 
 
 ### Goal
