@@ -2,7 +2,7 @@
 1. [Introduction](RAEDME.md#objective)
 2. [Input Data](README.md#input-data)
 3. [Analysis](README.md#analysis)
-4. [Interesting Features](README.md#features)
+4. [Steps](README.md#features)
 5. [Output Data](RAEDME.md#output-data)
 6. [Summary](RAEDME.md#summary)
 
@@ -68,6 +68,11 @@ Here customer 1 and customer 3 became unfriend.
 ### Key Points:
 
 Flagged purchases: 
+
+### Steps
+
+1. anomalousTimeStamps.py ranked the time stamps in terms of tarnsactions.
+2. flaggedPurchase.py ranked the flagged purchases for each time staps and calculate their mean and sd.
 
 
 
