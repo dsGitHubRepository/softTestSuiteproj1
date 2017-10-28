@@ -1,5 +1,5 @@
 # Contents
-1. [Introduction: Political fundraising](RAEDME.md#objective)
+1. [Introduction: Political Fundraising](RAEDME.md#objective)
 2. [Input Data](README.md#input-data)
 3. [Analysis](README.md#analysis)
 4. [Steps](README.md#features)
@@ -9,7 +9,7 @@
 
 
 ### Introduction
-Federal election commission regularly publishes campaign contributions. Though identifying individual donors in terms of their $ contributions are important but we will not do it since federal law phohibits that. 
+Federal election commission regularly publishes campaign contributions. Though identifying individual donors in terms of their $ contributions are important but we will not do it since federal law phohibits that. As a data analyst we would rather identify lucrrative time and area for soliciting future donations for similar candidate.  
 
 ### Goal
 This project aims to analyze purchases within the social network of users and detect users like user's id 1, 2, etc showing anomalous behavior i.e.; some shopper (referenced by id) making consecutively huge number of purchases (for a unique "id" and "timestamp") comparing the average trend (parameter: No of purchases, total purchases, etc) be identified as flagged purchase and be reported as 
