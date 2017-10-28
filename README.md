@@ -22,9 +22,9 @@ From available data sets construct "itcont.txt" where each entry would contain i
 
 We are primarily interested with
 
-1.a. donor ID  ( OTHER-ID )
-1.b. donor zip code  ( ZIP-CODE )
-2. $ amount contributed ( TRANSACTION-AMT )
-3. date of transaction ( TRANSACTION-DT )
-4. recipient ID  ( CMTE-ID )
+1.  donor ID  ( OTHER-ID )
+2. donor zip code  ( ZIP-CODE )
+3. $ amount contributed ( TRANSACTION-AMT )
+4. date of transaction ( TRANSACTION-DT )
+5. recipient ID  ( CMTE-ID )
 
