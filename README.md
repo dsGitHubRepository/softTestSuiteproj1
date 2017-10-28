@@ -1,5 +1,5 @@
 # Contents
-1. [Introduction](RAEDME.md#objective)
+1. [Introduction: Political fundraising](RAEDME.md#objective)
 2. [Input Data](README.md#input-data)
 3. [Analysis](README.md#analysis)
 4. [Steps](README.md#features)
@@ -9,8 +9,7 @@
 
 
 ### Introduction
-The objective of this problem is to study how social network affects e-commerce or business. Shoppers can see what their friends are buying so that social network can be used to promote e-commerce like Amazon, eBay, etc. Based on those analysis recommendations or emails can be send to customer to promote business.
-
+Federal election commission regularly publishes campaign contributions. Though identifying individual donors in terms of their $ contributions are important but we will not do it since federal law phohibits that. 
 
 ### Goal
 This project aims to analyze purchases within the social network of users and detect users like user's id 1, 2, etc showing anomalous behavior i.e.; some shopper (referenced by id) making consecutively huge number of purchases (for a unique "id" and "timestamp") comparing the average trend (parameter: No of purchases, total purchases, etc) be identified as flagged purchase and be reported as 
